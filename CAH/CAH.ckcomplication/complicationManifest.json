@@ -1,0 +1,12 @@
+{
+  "supported complication families" : {
+    "7" : "2722C92F-01F6-4313-B15D-1BF78653A859.json",
+    "3" : "37A248CB-57EA-46C1-9F40-EBA9F0CD740C.json",
+    "4" : "87FE903F-758A-4A10-8C9E-AE5BB5EB5776.json",
+    "0" : "E6033D9D-1882-440D-96CA-6E14544D29CA.json",
+    "1" : "BDE80B0D-5896-434E-A9A5-06AE740853DB.json",
+    "6" : "2FA0B4D8-49A5-4D7B-8C5D-E22BEAAD13DE.json",
+    "2" : "832C042A-DAB9-4D96-B6C8-F2884FB17A09.json"
+  },
+  "client ID" : "com.iosda.CAH.watchkitapp.watchkitextension"
+}

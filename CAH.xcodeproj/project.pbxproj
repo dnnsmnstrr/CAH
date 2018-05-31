@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B95E5C8B2010EB2E0092AC89 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E5C8A2010EB2E0092AC89 /* PlayerController.swift */; };
+		B95E5C8D2010EC430092AC89 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E5C8C2010EC430092AC89 /* Singleton.swift */; };
+		B96874B4200FBD8A004DF419 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96874B2200FBD8A004DF419 /* Interface.storyboard */; };
+		B96874B6200FBD8A004DF419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96874B5200FBD8A004DF419 /* Assets.xcassets */; };
+		B96874BD200FBD8A004DF419 /* CAH companion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B96874BC200FBD8A004DF419 /* CAH companion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B96874C2200FBD8A004DF419 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96874C1200FBD8A004DF419 /* InterfaceController.swift */; };
+		B96874C4200FBD8A004DF419 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96874C3200FBD8A004DF419 /* ExtensionDelegate.swift */; };
+		B96874C6200FBD8A004DF419 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96874C5200FBD8A004DF419 /* NotificationController.swift */; };
+		B96874C8200FBD8A004DF419 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96874C7200FBD8A004DF419 /* ComplicationController.swift */; };
+		B96874CA200FBD8A004DF419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96874C9200FBD8A004DF419 /* Assets.xcassets */; };
+		B96874CF200FBD8A004DF419 /* CAH companion.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B96874B0200FBD8A004DF419 /* CAH companion.app */; };
+		B96874DD200FE35F004DF419 /* Helvetica.ttc in Resources */ = {isa = PBXBuildFile; fileRef = B96874DC200FE35F004DF419 /* Helvetica.ttc */; };
+		B96874DE200FE379004DF419 /* Helvetica.ttc in Resources */ = {isa = PBXBuildFile; fileRef = B96874DC200FE35F004DF419 /* Helvetica.ttc */; };
 		B96A2339200EC6F1000E61B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2338200EC6F1000E61B4 /* AppDelegate.swift */; };
 		B96A233B200EC6F1000E61B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A233A200EC6F1000E61B4 /* ViewController.swift */; };
 		B96A233E200EC6F1000E61B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96A233C200EC6F1000E61B4 /* Main.storyboard */; };
@@ -14,9 +27,31 @@
 		B96A2343200EC6F1000E61B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96A2341200EC6F1000E61B4 /* LaunchScreen.storyboard */; };
 		B96A234E200EC6F1000E61B4 /* CAHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A234D200EC6F1000E61B4 /* CAHTests.swift */; };
 		B96A2359200EC6F1000E61B4 /* CAHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2358200EC6F1000E61B4 /* CAHUITests.swift */; };
+		B96A2367200ECE71000E61B4 /* cardbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2366200ECE71000E61B4 /* cardbase.swift */; };
+		B96A236F200EE9E2000E61B4 /* CardButtonWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A236E200EE9E2000E61B4 /* CardButtonWhite.swift */; };
+		B96A2371200EEA03000E61B4 /* CardButtonBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2370200EEA03000E61B4 /* CardButtonBlack.swift */; };
+		B96A2373200EEB9A000E61B4 /* BlackCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2372200EEB9A000E61B4 /* BlackCardViewController.swift */; };
+		B96A2375200EF1FF000E61B4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2374200EF1FF000E61B4 /* CardView.swift */; };
+		B9F48AFC20104A6E0068C378 /* CAH.ckcomplication in Resources */ = {isa = PBXBuildFile; fileRef = B9F48AFB20104A6E0068C378 /* CAH.ckcomplication */; };
+		B9F48AFE2010D7E90068C378 /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F48AFD2010D7E90068C378 /* MainScreenController.swift */; };
+		B9F48B002010D83E0068C378 /* LocalPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F48AFF2010D83E0068C378 /* LocalPlayController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B96874BE200FBD8A004DF419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96A232D200EC6F1000E61B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96874BB200FBD8A004DF419;
+			remoteInfo = "CAH companion Extension";
+		};
+		B96874CD200FBD8A004DF419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96A232D200EC6F1000E61B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96874AF200FBD8A004DF419;
+			remoteInfo = "CAH companion";
+		};
 		B96A234A200EC6F1000E61B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B96A232D200EC6F1000E61B4 /* Project object */;
@@ -33,7 +68,48 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B96874D3200FBD8A004DF419 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B96874BD200FBD8A004DF419 /* CAH companion Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96874D7200FBD8A004DF419 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B96874CF200FBD8A004DF419 /* CAH companion.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B95E5C8A2010EB2E0092AC89 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		B95E5C8C2010EC430092AC89 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		B96874AD200FBCE8004DF419 /* CAH.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CAH.entitlements; sourceTree = "<group>"; };
+		B96874B0200FBD8A004DF419 /* CAH companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAH companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96874B3200FBD8A004DF419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B96874B5200FBD8A004DF419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B96874B7200FBD8A004DF419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96874BC200FBD8A004DF419 /* CAH companion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CAH companion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96874C1200FBD8A004DF419 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B96874C3200FBD8A004DF419 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B96874C5200FBD8A004DF419 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B96874C7200FBD8A004DF419 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		B96874C9200FBD8A004DF419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B96874CB200FBD8A004DF419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96874CC200FBD8A004DF419 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B96874DC200FE35F004DF419 /* Helvetica.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Helvetica.ttc; path = "CAH companion/Helvetica.ttc"; sourceTree = SOURCE_ROOT; };
 		B96A2335200EC6F1000E61B4 /* CAH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96A2338200EC6F1000E61B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B96A233A200EC6F1000E61B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,9 +123,24 @@
 		B96A2354200EC6F1000E61B4 /* CAHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96A2358200EC6F1000E61B4 /* CAHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAHUITests.swift; sourceTree = "<group>"; };
 		B96A235A200EC6F1000E61B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96A2366200ECE71000E61B4 /* cardbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardbase.swift; sourceTree = "<group>"; };
+		B96A236E200EE9E2000E61B4 /* CardButtonWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButtonWhite.swift; sourceTree = "<group>"; };
+		B96A2370200EEA03000E61B4 /* CardButtonBlack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButtonBlack.swift; sourceTree = "<group>"; };
+		B96A2372200EEB9A000E61B4 /* BlackCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackCardViewController.swift; sourceTree = "<group>"; };
+		B96A2374200EF1FF000E61B4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B9F48AFB20104A6E0068C378 /* CAH.ckcomplication */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CAH.ckcomplication; sourceTree = "<group>"; };
+		B9F48AFD2010D7E90068C378 /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		B9F48AFF2010D83E0068C378 /* LocalPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPlayController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B96874B9200FBD8A004DF419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B96A2332200EC6F1000E61B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,12 +165,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B96874B1200FBD8A004DF419 /* CAH companion */ = {
+			isa = PBXGroup;
+			children = (
+				B96874B2200FBD8A004DF419 /* Interface.storyboard */,
+				B96874B5200FBD8A004DF419 /* Assets.xcassets */,
+				B96874B7200FBD8A004DF419 /* Info.plist */,
+			);
+			path = "CAH companion";
+			sourceTree = "<group>";
+		};
+		B96874C0200FBD8A004DF419 /* CAH companion Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B95E5C8C2010EC430092AC89 /* Singleton.swift */,
+				B9F48AFD2010D7E90068C378 /* MainScreenController.swift */,
+				B95E5C8A2010EB2E0092AC89 /* PlayerController.swift */,
+				B9F48AFF2010D83E0068C378 /* LocalPlayController.swift */,
+				B96874C1200FBD8A004DF419 /* InterfaceController.swift */,
+				B96874C3200FBD8A004DF419 /* ExtensionDelegate.swift */,
+				B96874C5200FBD8A004DF419 /* NotificationController.swift */,
+				B96874C7200FBD8A004DF419 /* ComplicationController.swift */,
+				B96874C9200FBD8A004DF419 /* Assets.xcassets */,
+				B96874DC200FE35F004DF419 /* Helvetica.ttc */,
+				B96874CB200FBD8A004DF419 /* Info.plist */,
+				B96874CC200FBD8A004DF419 /* PushNotificationPayload.apns */,
+			);
+			path = "CAH companion Extension";
+			sourceTree = "<group>";
+		};
 		B96A232C200EC6F1000E61B4 = {
 			isa = PBXGroup;
 			children = (
 				B96A2337200EC6F1000E61B4 /* CAH */,
 				B96A234C200EC6F1000E61B4 /* CAHTests */,
 				B96A2357200EC6F1000E61B4 /* CAHUITests */,
+				B96874B1200FBD8A004DF419 /* CAH companion */,
+				B96874C0200FBD8A004DF419 /* CAH companion Extension */,
 				B96A2336200EC6F1000E61B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +212,8 @@
 				B96A2335200EC6F1000E61B4 /* CAH.app */,
 				B96A2349200EC6F1000E61B4 /* CAHTests.xctest */,
 				B96A2354200EC6F1000E61B4 /* CAHUITests.xctest */,
+				B96874B0200FBD8A004DF419 /* CAH companion.app */,
+				B96874BC200FBD8A004DF419 /* CAH companion Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,10 +221,16 @@
 		B96A2337200EC6F1000E61B4 /* CAH */ = {
 			isa = PBXGroup;
 			children = (
+				B9F48AFB20104A6E0068C378 /* CAH.ckcomplication */,
+				B96874AD200FBCE8004DF419 /* CAH.entitlements */,
 				B96A2338200EC6F1000E61B4 /* AppDelegate.swift */,
+				B9D3F5892093563B00DA1C2B /* Assets */,
 				B96A233A200EC6F1000E61B4 /* ViewController.swift */,
 				B96A233C200EC6F1000E61B4 /* Main.storyboard */,
-				B96A233F200EC6F1000E61B4 /* Assets.xcassets */,
+				B96A2372200EEB9A000E61B4 /* BlackCardViewController.swift */,
+				B96A2374200EF1FF000E61B4 /* CardView.swift */,
+				B96A236E200EE9E2000E61B4 /* CardButtonWhite.swift */,
+				B96A2370200EEA03000E61B4 /* CardButtonBlack.swift */,
 				B96A2341200EC6F1000E61B4 /* LaunchScreen.storyboard */,
 				B96A2344200EC6F1000E61B4 /* Info.plist */,
 			);
@@ -125,9 +255,52 @@
 			path = CAHUITests;
 			sourceTree = "<group>";
 		};
+		B9D3F5892093563B00DA1C2B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B96A2366200ECE71000E61B4 /* cardbase.swift */,
+				B96A233F200EC6F1000E61B4 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B96874AF200FBD8A004DF419 /* CAH companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96874D4200FBD8A004DF419 /* Build configuration list for PBXNativeTarget "CAH companion" */;
+			buildPhases = (
+				B96874AE200FBD8A004DF419 /* Resources */,
+				B96874D3200FBD8A004DF419 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96874BF200FBD8A004DF419 /* PBXTargetDependency */,
+			);
+			name = "CAH companion";
+			productName = "CAH companion";
+			productReference = B96874B0200FBD8A004DF419 /* CAH companion.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B96874BB200FBD8A004DF419 /* CAH companion Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96874D0200FBD8A004DF419 /* Build configuration list for PBXNativeTarget "CAH companion Extension" */;
+			buildPhases = (
+				B96874B8200FBD8A004DF419 /* Sources */,
+				B96874B9200FBD8A004DF419 /* Frameworks */,
+				B96874BA200FBD8A004DF419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CAH companion Extension";
+			productName = "CAH companion Extension";
+			productReference = B96874BC200FBD8A004DF419 /* CAH companion Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		B96A2334200EC6F1000E61B4 /* CAH */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B96A235D200EC6F1000E61B4 /* Build configuration list for PBXNativeTarget "CAH" */;
@@ -135,10 +308,12 @@
 				B96A2331200EC6F1000E61B4 /* Sources */,
 				B96A2332200EC6F1000E61B4 /* Frameworks */,
 				B96A2333200EC6F1000E61B4 /* Resources */,
+				B96874D7200FBD8A004DF419 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B96874CE200FBD8A004DF419 /* PBXTargetDependency */,
 			);
 			name = CAH;
 			productName = CAH;
@@ -191,9 +366,22 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Dennis Muensterer";
 				TargetAttributes = {
+					B96874AF200FBD8A004DF419 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B96874BB200FBD8A004DF419 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					B96A2334200EC6F1000E61B4 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					B96A2348200EC6F1000E61B4 = {
 						CreatedOnToolsVersion = 9.2;
@@ -223,15 +411,37 @@
 				B96A2334200EC6F1000E61B4 /* CAH */,
 				B96A2348200EC6F1000E61B4 /* CAHTests */,
 				B96A2353200EC6F1000E61B4 /* CAHUITests */,
+				B96874AF200FBD8A004DF419 /* CAH companion */,
+				B96874BB200FBD8A004DF419 /* CAH companion Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B96874AE200FBD8A004DF419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96874B6200FBD8A004DF419 /* Assets.xcassets in Resources */,
+				B96874B4200FBD8A004DF419 /* Interface.storyboard in Resources */,
+				B96874DE200FE379004DF419 /* Helvetica.ttc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96874BA200FBD8A004DF419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96874CA200FBD8A004DF419 /* Assets.xcassets in Resources */,
+				B96874DD200FE35F004DF419 /* Helvetica.ttc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B96A2333200EC6F1000E61B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F48AFC20104A6E0068C378 /* CAH.ckcomplication in Resources */,
 				B96A2343200EC6F1000E61B4 /* LaunchScreen.storyboard in Resources */,
 				B96A2340200EC6F1000E61B4 /* Assets.xcassets in Resources */,
 				B96A233E200EC6F1000E61B4 /* Main.storyboard in Resources */,
@@ -255,12 +465,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B96874B8200FBD8A004DF419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96874C6200FBD8A004DF419 /* NotificationController.swift in Sources */,
+				B96874C8200FBD8A004DF419 /* ComplicationController.swift in Sources */,
+				B95E5C8B2010EB2E0092AC89 /* PlayerController.swift in Sources */,
+				B9F48B002010D83E0068C378 /* LocalPlayController.swift in Sources */,
+				B9F48AFE2010D7E90068C378 /* MainScreenController.swift in Sources */,
+				B96874C4200FBD8A004DF419 /* ExtensionDelegate.swift in Sources */,
+				B96874C2200FBD8A004DF419 /* InterfaceController.swift in Sources */,
+				B95E5C8D2010EC430092AC89 /* Singleton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B96A2331200EC6F1000E61B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96A2375200EF1FF000E61B4 /* CardView.swift in Sources */,
 				B96A233B200EC6F1000E61B4 /* ViewController.swift in Sources */,
 				B96A2339200EC6F1000E61B4 /* AppDelegate.swift in Sources */,
+				B96A2367200ECE71000E61B4 /* cardbase.swift in Sources */,
+				B96A2371200EEA03000E61B4 /* CardButtonBlack.swift in Sources */,
+				B96A2373200EEB9A000E61B4 /* BlackCardViewController.swift in Sources */,
+				B96A236F200EE9E2000E61B4 /* CardButtonWhite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +513,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B96874BF200FBD8A004DF419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96874BB200FBD8A004DF419 /* CAH companion Extension */;
+			targetProxy = B96874BE200FBD8A004DF419 /* PBXContainerItemProxy */;
+		};
+		B96874CE200FBD8A004DF419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96874AF200FBD8A004DF419 /* CAH companion */;
+			targetProxy = B96874CD200FBD8A004DF419 /* PBXContainerItemProxy */;
+		};
 		B96A234B200EC6F1000E61B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B96A2334200EC6F1000E61B4 /* CAH */;
@@ -296,6 +536,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B96874B2200FBD8A004DF419 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96874B3200FBD8A004DF419 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		B96A233C200EC6F1000E61B4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -315,6 +563,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B96874D1200FBD8A004DF419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSKA8928CG;
+				INFOPLIST_FILE = "CAH companion Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosda.CAH.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		B96874D2200FBD8A004DF419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSKA8928CG;
+				INFOPLIST_FILE = "CAH companion Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosda.CAH.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		B96874D5200FBD8A004DF419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSKA8928CG;
+				IBSC_MODULE = CAH_companion_Extension;
+				INFOPLIST_FILE = "CAH companion/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosda.CAH.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		B96874D6200FBD8A004DF419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSKA8928CG;
+				IBSC_MODULE = CAH_companion_Extension;
+				INFOPLIST_FILE = "CAH companion/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosda.CAH.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
 		B96A235B200EC6F1000E61B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -426,6 +748,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CAH/CAH.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CSKA8928CG;
 				INFOPLIST_FILE = CAH/Info.plist;
@@ -441,6 +764,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CAH/CAH.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CSKA8928CG;
 				INFOPLIST_FILE = CAH/Info.plist;
@@ -521,6 +845,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B96874D0200FBD8A004DF419 /* Build configuration list for PBXNativeTarget "CAH companion Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96874D1200FBD8A004DF419 /* Debug */,
+				B96874D2200FBD8A004DF419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96874D4200FBD8A004DF419 /* Build configuration list for PBXNativeTarget "CAH companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96874D5200FBD8A004DF419 /* Debug */,
+				B96874D6200FBD8A004DF419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B96A2330200EC6F1000E61B4 /* Build configuration list for PBXProject "CAH" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

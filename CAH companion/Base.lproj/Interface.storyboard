@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8hh-i3-gZh" pageOrientation="vertical">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13756"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CAH_companion" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="gmw-UF-1dC">
+                            <items>
+                                <group width="1" height="27" alignment="left" layout="vertical" id="hCv-wc-lhh">
+                                    <items>
+                                        <group width="1" height="32" alignment="left" layout="overlap" id="CKX-Sv-zSD">
+                                            <items>
+                                                <button width="1" height="32" alignment="left" id="0DG-eC-NwM">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="font" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                                    <connections>
+                                                        <action selector="changeBlackCard" destination="AgC-eL-Hgc" id="ebp-c2-7Ss"/>
+                                                    </connections>
+                                                </button>
+                                                <label width="1" height="32" alignment="left" text=" White Card." textAlignment="left" id="3cU-Bl-YgE">
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="font" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
+                                                </label>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
+                                <group width="1" height="2" alignment="left" id="Y29-Tr-TGn"/>
+                                <group width="1" alignment="left" id="cO4-oY-ZZf">
+                                    <items>
+                                        <label width="1" alignment="left" text="Label" textAlignment="left" numberOfLines="0" id="wuE-4j-zr5">
+                                            <gestureRecognizers>
+                                                <tapGestureRecognizer id="iTM-7V-8LX">
+                                                    <connections>
+                                                        <action selector="doubleTapGesture:" destination="AgC-eL-Hgc" id="NaO-je-oXa"/>
+                                                    </connections>
+                                                </tapGestureRecognizer>
+                                            </gestureRecognizers>
+                                            <fontDescription key="font" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                        <button width="1" height="30" alignment="left" verticalAlignment="bottom" alpha="0.050000000000000003" id="eXt-7d-Ddh">
+                            <connections>
+                                <action selector="fillerButton:" destination="AgC-eL-Hgc" id="DKD-Gz-7tK"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <menu key="menu" id="bC1-os-eA2">
+                        <items>
+                            <menuItem title="Expansion Pack" icon="add" id="89E-G0-BU4">
+                                <connections>
+                                    <action selector="installExpansionPack" destination="AgC-eL-Hgc" id="MrA-sO-HlF"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="blackCardLabel" destination="wuE-4j-zr5" id="Zxf-SJ-Yzl"/>
+                        <outlet property="changeBlackCard" destination="0DG-eC-NwM" id="5Kj-2C-VoY"/>
+                        <outlet property="spacer" destination="Y29-Tr-TGn" id="Jws-Qn-Xf1"/>
+                        <outlet property="whiteCardLabel" destination="3cU-Bl-YgE" id="es2-nd-yeZ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="459" y="-77"/>
+        </scene>
+        <!--Main Screen Controller-->
+        <scene sceneID="BKd-Z9-Qxc">
+            <objects>
+                <controller id="8hh-i3-gZh" customClass="MainScreenController" customModule="CAH_companion_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="Just Black Cards?" id="RKa-7b-u8y">
+                            <fontDescription key="font" type="boldSystem" pointSize="13"/>
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="jaX-zC-l10"/>
+                            </connections>
+                        </button>
+                        <group width="1" alignment="left" layout="vertical" id="DZJ-6o-R5b">
+                            <items>
+                                <button width="1" height="0.40000000000000002" alignment="left" verticalAlignment="center" alpha="0.20000000000000001" title="Winning Combos" id="2Aq-dw-8un">
+                                    <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </button>
+                                <button width="1" height="0.59999999999999998" alignment="left" verticalAlignment="center" alpha="0.20000000000000001" title="Multi Device" id="TAn-nL-c1M">
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </button>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Local Play." id="aSb-x7-iUo">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="25"/>
+                            <connections>
+                                <action selector="startNewGame" destination="8hh-i3-gZh" id="Hlk-PI-nWN"/>
+                                <segue destination="SFP-Sz-Lly" kind="push" id="gZw-nT-vEI"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="155" y="170"/>
+        </scene>
+        <!--Player Controller-->
+        <scene sceneID="dou-XT-8Sh">
+            <objects>
+                <controller id="SFP-Sz-Lly" customClass="PlayerController" customModule="CAH_companion_Extension">
+                    <items>
+                        <group width="1" height="0.20000000000000001" heightAdjustment="4" alignment="left" id="tQh-dU-aFQ">
+                            <items>
+                                <label width="0.5" height="1" alignment="left" verticalAlignment="center" text="Players?" textAlignment="center" numberOfLines="0" id="EZx-uS-ub6">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                                </label>
+                                <picker width="0.5" height="1" alignment="right" verticalAlignment="center" id="6yn-CI-HDW">
+                                    <connections>
+                                        <action selector="onCountChanged:" destination="SFP-Sz-Lly" id="OpI-QX-7LX"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </group>
+                        <group width="1" height="0.29999999999999999" heightAdjustment="-5" alignment="left" id="A6t-kR-ceW">
+                            <items>
+                                <button width="0.33000000000000002" height="1" alignment="left" verticalAlignment="center" title="-" id="Bhe-JV-xLG">
+                                    <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                    <connections>
+                                        <action selector="fewerCards" destination="SFP-Sz-Lly" id="JYc-QD-rpH"/>
+                                    </connections>
+                                </button>
+                                <label width="43" height="1" alignment="center" verticalAlignment="center" text="Cards 4" textAlignment="center" numberOfLines="2" id="rvt-Iw-Oyd">
+                                    <gestureRecognizers>
+                                        <tapGestureRecognizer numberOfTapsRequired="2" id="ON2-Rd-8cG">
+                                            <connections>
+                                                <action selector="setToDefault:" destination="SFP-Sz-Lly" id="pnY-xT-Qiz"/>
+                                            </connections>
+                                        </tapGestureRecognizer>
+                                    </gestureRecognizers>
+                                    <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                </label>
+                                <button width="0.33000000000000002" height="1" alignment="right" title="+" id="FFK-Ty-hgd">
+                                    <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                    <connections>
+                                        <action selector="moreCards" destination="SFP-Sz-Lly" id="KvP-eG-d7I"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <button width="1" alignment="right" verticalAlignment="bottom" title="Ok." id="mde-eP-zYa">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="18"/>
+                            <connections>
+                                <action selector="returnButton" destination="SFP-Sz-Lly" id="99U-8x-qS0"/>
+                                <segue destination="h9q-DS-JYU" kind="push" id="OJz-rI-Cp0"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="cardControl" destination="rvt-Iw-Oyd" id="WQs-if-ijX"/>
+                        <outlet property="playerPicker" destination="6yn-CI-HDW" id="DlK-xu-T12"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="459" y="319"/>
+        </scene>
+        <!--Local Play Controller-->
+        <scene sceneID="gx7-02-hkd">
+            <objects>
+                <controller fullScreen="YES" id="h9q-DS-JYU" customClass="LocalPlayController" customModule="CAH_companion_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="This Label has a _______." textAlignment="left" numberOfLines="0" id="eGZ-Ps-fEq">
+                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                        </label>
+                        <group width="1" height="10" alignment="left" id="hdX-AV-oR8"/>
+                        <picker width="1" height="16" alignment="left" focusStyle="sequence" id="pD3-ck-WtL">
+                            <connections>
+                                <action selector="onCardChanged:" destination="h9q-DS-JYU" id="ZFT-IV-9fy"/>
+                            </connections>
+                        </picker>
+                        <group width="1" height="1" alignment="left" verticalAlignment="bottom" layout="vertical" id="Wer-bF-YpP">
+                            <items>
+                                <group width="1" alignment="left" layout="overlap" id="8oL-ar-x1T">
+                                    <items>
+                                        <button width="1" height="1" alignment="left" verticalAlignment="bottom" id="LKp-Rt-aO6">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="font" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                            <connections>
+                                                <action selector="selectCard" destination="h9q-DS-JYU" id="YT8-PE-52V"/>
+                                            </connections>
+                                        </button>
+                                        <label width="1" alignment="left" verticalAlignment="bottom" text=" White Card." textAlignment="left" numberOfLines="0" id="KdP-rq-jel">
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="22"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <button width="0.97999999999999998" alignment="center" verticalAlignment="bottom" alpha="0.0" title="Play Again?" id="VFm-ua-dH5">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="22"/>
+                                    <connections>
+                                        <action selector="playAgainAction" destination="h9q-DS-JYU" id="CeW-ok-pRX"/>
+                                        <segue destination="SFP-Sz-Lly" kind="push" id="izL-7m-KpD"/>
+                                    </connections>
+                                </button>
+                                <button width="0.97999999999999998" alignment="center" verticalAlignment="bottom" alpha="0.0" title="Main Menu?" id="XmQ-oH-U5O">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="22"/>
+                                    <connections>
+                                        <segue destination="8hh-i3-gZh" kind="push" id="hzp-Ih-2JC"/>
+                                    </connections>
+                                </button>
+                                <group width="1" height="2" alignment="left" verticalAlignment="bottom" id="Z60-Et-4M7">
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </group>
+                            </items>
+                            <gestureRecognizers>
+                                <tapGestureRecognizer id="fj6-lA-Iqv">
+                                    <connections>
+                                        <action selector="selectCard" destination="h9q-DS-JYU" id="1xh-dj-g5d"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                            </gestureRecognizers>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="blackCardLabel" destination="eGZ-Ps-fEq" id="RE6-2X-0ZA"/>
+                        <outlet property="cardPicker" destination="pD3-ck-WtL" id="5bn-mp-s3o"/>
+                        <outlet property="mainMenu" destination="XmQ-oH-U5O" id="OQL-a7-DSy"/>
+                        <outlet property="playAgain" destination="VFm-ua-dH5" id="Bd8-pr-hka"/>
+                        <outlet property="selectCardButton" destination="LKp-Rt-aO6" id="bQJ-Zx-wIZ"/>
+                        <outlet property="selectCardLabel" destination="KdP-rq-jel" id="cF4-Qq-x1G"/>
+                        <outlet property="spacer" destination="Z60-Et-4M7" id="01e-1R-f6r"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="739" y="319"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="izL-7m-KpD"/>
+    </inferredMetricsTieBreakers>
+</document>
