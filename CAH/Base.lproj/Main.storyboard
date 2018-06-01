@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mZe-qU-EJO">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,11 +16,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CAH" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vau-zG-FIO" customClass="CardButtonWhite" customModule="CAH" customModuleProvider="target">
-                                <rect key="frame" x="10" y="335.5" width="300" height="357"/>
+                                <rect key="frame" x="37.666666666666657" y="501.66666666666674" width="300" height="357"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="HQe-7p-I9M"/>
@@ -36,7 +36,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diT-Hj-xOW">
-                                <rect key="frame" x="34" y="335.5" width="117" height="104"/>
+                                <rect key="frame" x="61.666666666666657" y="501.66666666666674" width="117" height="104"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                 </accessibility>
@@ -47,7 +47,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo White" translatesAutoresizingMaskIntoConstraints="NO" id="1Ya-QR-B0q">
-                                <rect key="frame" x="37.5" y="12" width="245" height="249"/>
+                                <rect key="frame" x="65" y="178" width="245" height="249"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1Ya-QR-B0q" secondAttribute="height" multiplier="245:248" priority="750" id="efg-qt-jhe"/>
                                 </constraints>
@@ -80,7 +80,7 @@
             <objects>
                 <navigationController id="mZe-qU-EJO" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ckx-xt-nx4">
-                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zsE-1h-zjj">
@@ -94,98 +94,83 @@
             </objects>
             <point key="canvasLocation" x="-778" y="34"/>
         </scene>
-        <!--View Controller-->
+        <!--Selection View Controller-->
         <scene sceneID="7qq-x5-h8u">
             <objects>
-                <viewController id="Kb8-DA-Utj" sceneMemberID="viewController">
+                <viewController id="Kb8-DA-Utj" customClass="SelectionViewController" customModule="CAH" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oYi-21-fUa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUe-sS-B4e" customClass="CardButtonBlack" customModule="CAH" customModuleProvider="target">
-                                <rect key="frame" x="16" y="83" width="288" height="87"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="MUe-sS-B4e" secondAttribute="height" multiplier="343:103" id="pVG-bK-rcX"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="36"/>
-                                <state key="normal">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="mv7-Mr-s23" kind="show" id="9UQ-ho-XOz"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="EVB-eV-etU">
-                                <rect key="frame" x="29" y="63" width="221" height="77"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="l5d-2p-LGP"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Black Cards!">
-                                        <attributes>
-                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <font key="NSFont" size="71" name="Helvetica-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3g-at-vBE" customClass="CardButtonBlack" customModule="CAH" customModuleProvider="target">
-                                <rect key="frame" x="16" y="190" width="288" height="87"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="V3g-at-vBE" secondAttribute="height" multiplier="343:103" id="zRm-2h-aW2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="36"/>
-                                <state key="normal">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="5Yu-WO-lCN" kind="show" id="QfD-iR-ytq"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="UWG-l1-x84">
-                                <rect key="frame" x="29" y="190" width="208" height="76"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="6Zr-8O-6D4"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Full Game">
-                                        <attributes>
-                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <font key="NSFont" size="43" name="Helvetica-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="lTo-f2-rJU">
+                                <rect key="frame" x="15" y="108" width="345" height="343"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57S-LL-bmk" customClass="CardButton" customModule="CAH" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="103.66666666666667"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="57S-LL-bmk" secondAttribute="height" multiplier="343:103" id="9Oi-Ho-OYE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="36"/>
+                                        <inset key="titleEdgeInsets" minX="21" minY="16" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Full Game!">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="buttonText" value="Full Game!"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUe-sS-B4e" customClass="CardButton" customModule="CAH" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="119.66666666666666" width="345" height="103.66666666666666"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="MUe-sS-B4e" secondAttribute="height" multiplier="343:103" id="pVG-bK-rcX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="36"/>
+                                        <inset key="titleEdgeInsets" minX="21" minY="16" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Black Cards?">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="buttonText" value="Black Cards?"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="mv7-Mr-s23" kind="show" id="9UQ-ho-XOz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4T-RI-e5S" customClass="CardButton" customModule="CAH" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="239.33333333333329" width="345" height="103.66666666666666"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="X4T-RI-e5S" secondAttribute="height" multiplier="343:103" id="Ynh-LJ-26m"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="36"/>
+                                        <inset key="titleEdgeInsets" minX="21" minY="16" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Card List.">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="buttonText" value="Card List."/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="EVB-eV-etU" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="MUe-sS-B4e" secondAttribute="trailing" constant="-54" id="0oN-Rz-wYE"/>
-                            <constraint firstItem="UWG-l1-x84" firstAttribute="top" secondItem="V3g-at-vBE" secondAttribute="top" id="6r4-P0-R5c"/>
-                            <constraint firstItem="EVB-eV-etU" firstAttribute="top" secondItem="MUe-sS-B4e" secondAttribute="top" constant="-20" id="Awl-Lq-YGJ"/>
-                            <constraint firstItem="xKR-Ue-GcW" firstAttribute="trailing" secondItem="MUe-sS-B4e" secondAttribute="trailing" constant="16" id="Jsa-NR-je2"/>
-                            <constraint firstItem="V3g-at-vBE" firstAttribute="top" secondItem="MUe-sS-B4e" secondAttribute="bottom" constant="20" id="S1o-4c-2Xr"/>
-                            <constraint firstItem="MUe-sS-B4e" firstAttribute="top" secondItem="xKR-Ue-GcW" secondAttribute="top" constant="20" id="Z5e-9m-ZG0"/>
-                            <constraint firstItem="V3g-at-vBE" firstAttribute="height" secondItem="MUe-sS-B4e" secondAttribute="height" id="aVe-Vz-Y7X"/>
-                            <constraint firstItem="V3g-at-vBE" firstAttribute="centerX" secondItem="oYi-21-fUa" secondAttribute="centerX" id="dCs-4a-zul"/>
-                            <constraint firstItem="MUe-sS-B4e" firstAttribute="centerX" secondItem="oYi-21-fUa" secondAttribute="centerX" id="fYM-kj-TrV"/>
-                            <constraint firstItem="EVB-eV-etU" firstAttribute="leading" secondItem="MUe-sS-B4e" secondAttribute="leading" constant="13" id="pvE-SQ-Ntf"/>
-                            <constraint firstItem="MUe-sS-B4e" firstAttribute="centerY" secondItem="oYi-21-fUa" secondAttribute="centerY" constant="-203" id="qtw-CS-bBR"/>
-                            <constraint firstItem="V3g-at-vBE" firstAttribute="width" secondItem="V3g-at-vBE" secondAttribute="height" multiplier="343:103" id="rAD-3k-znu"/>
-                            <constraint firstItem="MUe-sS-B4e" firstAttribute="leading" secondItem="xKR-Ue-GcW" secondAttribute="leading" constant="16" id="txO-Et-S1J"/>
-                            <constraint firstItem="UWG-l1-x84" firstAttribute="leading" secondItem="EVB-eV-etU" secondAttribute="leading" id="vs6-Yy-Fvf"/>
-                            <constraint firstItem="V3g-at-vBE" firstAttribute="width" secondItem="MUe-sS-B4e" secondAttribute="width" id="y3A-3g-eyL"/>
+                            <constraint firstItem="lTo-f2-rJU" firstAttribute="leading" secondItem="xKR-Ue-GcW" secondAttribute="leading" constant="15" id="3gz-jo-VXV"/>
+                            <constraint firstItem="xKR-Ue-GcW" firstAttribute="trailing" secondItem="lTo-f2-rJU" secondAttribute="trailing" constant="15" id="574-1t-KDA"/>
+                            <constraint firstItem="lTo-f2-rJU" firstAttribute="centerX" secondItem="oYi-21-fUa" secondAttribute="centerX" id="YeE-L8-dOV"/>
+                            <constraint firstItem="lTo-f2-rJU" firstAttribute="top" secondItem="xKR-Ue-GcW" secondAttribute="top" constant="20" id="jtu-ZW-Tq0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xKR-Ue-GcW"/>
                     </view>
@@ -199,14 +184,14 @@
             <objects>
                 <viewController id="mv7-Mr-s23" customClass="BlackCardView" customModule="CAH" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="szM-ay-fz4">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tY1-kn-LAF" customClass="CardView" customModule="CAH" customModuleProvider="target">
-                                <rect key="frame" x="16" y="80.5" width="288" height="273"/>
+                                <rect key="frame" x="16" y="104.66666666666669" width="343" height="557"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfa-1V-uxg">
-                                        <rect key="frame" x="15" y="15" width="258" height="243"/>
+                                        <rect key="frame" x="15" y="15" width="313" height="527"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Mfa-1V-uxg" secondAttribute="height" multiplier="3:4" priority="900" id="rfW-YP-kp0"/>
                                         </constraints>
@@ -234,16 +219,23 @@
                                     <constraint firstItem="Mfa-1V-uxg" firstAttribute="centerX" secondItem="tY1-kn-LAF" secondAttribute="centerX" id="jnr-sR-fnK"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svp-Io-8o4" customClass="CardButtonBlack" customModule="CAH" customModuleProvider="target">
-                                <rect key="frame" x="95" y="384.5" width="130" height="53"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svp-Io-8o4" customClass="CardButton" customModule="CAH" customModuleProvider="target">
+                                <rect key="frame" x="125" y="692.66666666666663" width="125" height="53"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="mly-Ho-nnW"/>
                                     <constraint firstAttribute="height" constant="53" id="tl9-Tq-ugG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="28"/>
-                                <state key="normal" title="New Card">
+                                <state key="normal" title="Refresh">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonText" value="Refresh"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="newCard:" destination="mv7-Mr-s23" eventType="touchUpInside" id="Cbd-gz-VsF"/>
                                 </connections>
@@ -269,21 +261,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="haa-fT-SM1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1796" y="33.733133433283363"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="mtu-mi-dG7">
-            <objects>
-                <viewController id="5Yu-WO-lCN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="u5v-E2-faU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="LBa-7a-U1b"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iyZ-Fl-xlb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="999" y="835"/>
         </scene>
     </scenes>
     <resources>

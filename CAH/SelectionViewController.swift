@@ -1,33 +1,21 @@
 //
-//  BlackCardView.swift
+//  SelectionViewController.swift
 //  CAH
 //
-//  Created by Dennis Muensterer on 17.01.18.
+//  Created by Dennis Muensterer on 01.06.18.
 //  Copyright © 2018 Dennis Muensterer. All rights reserved.
 //
 
 import UIKit
 
+class SelectionViewController: UIViewController {
 
-class BlackCardView: UIViewController, UINavigationControllerDelegate {
-    @IBOutlet weak var blackCardText: UITextView!
-    @IBOutlet weak var drawCard: CardButton!
-    @IBAction func newCard(_ sender: Any) {
-        randomCard()
-    }
-
-    func randomCard(){
-        blackCardText.text = Cards.blackCards[Int(arc4random_uniform(UInt32(Cards.blackCards.count)))]
-    }
-
-    override func viewDidLoad() { 
-        
+    override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

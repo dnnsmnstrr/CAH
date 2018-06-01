@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B93D654520C0B7B900EF1DA9 /* cardbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2366200ECE71000E61B4 /* cardbase.swift */; };
+		B93D654720C0BC3000EF1DA9 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D654620C0BC3000EF1DA9 /* SelectionViewController.swift */; };
+		B952F5F720C12850008B1BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B952F5F620C12850008B1BE0 /* Assets.xcassets */; };
 		B95E5C8B2010EB2E0092AC89 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E5C8A2010EB2E0092AC89 /* PlayerController.swift */; };
 		B95E5C8D2010EC430092AC89 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E5C8C2010EC430092AC89 /* Singleton.swift */; };
 		B96874B4200FBD8A004DF419 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96874B2200FBD8A004DF419 /* Interface.storyboard */; };
@@ -23,13 +26,12 @@
 		B96A2339200EC6F1000E61B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2338200EC6F1000E61B4 /* AppDelegate.swift */; };
 		B96A233B200EC6F1000E61B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A233A200EC6F1000E61B4 /* ViewController.swift */; };
 		B96A233E200EC6F1000E61B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96A233C200EC6F1000E61B4 /* Main.storyboard */; };
-		B96A2340200EC6F1000E61B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96A233F200EC6F1000E61B4 /* Assets.xcassets */; };
 		B96A2343200EC6F1000E61B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96A2341200EC6F1000E61B4 /* LaunchScreen.storyboard */; };
 		B96A234E200EC6F1000E61B4 /* CAHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A234D200EC6F1000E61B4 /* CAHTests.swift */; };
 		B96A2359200EC6F1000E61B4 /* CAHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2358200EC6F1000E61B4 /* CAHUITests.swift */; };
 		B96A2367200ECE71000E61B4 /* cardbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2366200ECE71000E61B4 /* cardbase.swift */; };
 		B96A236F200EE9E2000E61B4 /* CardButtonWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A236E200EE9E2000E61B4 /* CardButtonWhite.swift */; };
-		B96A2371200EEA03000E61B4 /* CardButtonBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2370200EEA03000E61B4 /* CardButtonBlack.swift */; };
+		B96A2371200EEA03000E61B4 /* CardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2370200EEA03000E61B4 /* CardButton.swift */; };
 		B96A2373200EEB9A000E61B4 /* BlackCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2372200EEB9A000E61B4 /* BlackCardViewController.swift */; };
 		B96A2375200EF1FF000E61B4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A2374200EF1FF000E61B4 /* CardView.swift */; };
 		B9F48AFC20104A6E0068C378 /* CAH.ckcomplication in Resources */ = {isa = PBXBuildFile; fileRef = B9F48AFB20104A6E0068C378 /* CAH.ckcomplication */; };
@@ -94,6 +96,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B93D654620C0BC3000EF1DA9 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		B952F5F620C12850008B1BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B95E5C8A2010EB2E0092AC89 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
 		B95E5C8C2010EC430092AC89 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		B96874AD200FBCE8004DF419 /* CAH.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CAH.entitlements; sourceTree = "<group>"; };
@@ -114,7 +118,6 @@
 		B96A2338200EC6F1000E61B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B96A233A200EC6F1000E61B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B96A233D200EC6F1000E61B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B96A233F200EC6F1000E61B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96A2342200EC6F1000E61B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B96A2344200EC6F1000E61B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B96A2349200EC6F1000E61B4 /* CAHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,7 +128,7 @@
 		B96A235A200EC6F1000E61B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B96A2366200ECE71000E61B4 /* cardbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardbase.swift; sourceTree = "<group>"; };
 		B96A236E200EE9E2000E61B4 /* CardButtonWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButtonWhite.swift; sourceTree = "<group>"; };
-		B96A2370200EEA03000E61B4 /* CardButtonBlack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButtonBlack.swift; sourceTree = "<group>"; };
+		B96A2370200EEA03000E61B4 /* CardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButton.swift; sourceTree = "<group>"; };
 		B96A2372200EEB9A000E61B4 /* BlackCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackCardViewController.swift; sourceTree = "<group>"; };
 		B96A2374200EF1FF000E61B4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B9F48AFB20104A6E0068C378 /* CAH.ckcomplication */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CAH.ckcomplication; sourceTree = "<group>"; };
@@ -225,12 +228,13 @@
 				B96874AD200FBCE8004DF419 /* CAH.entitlements */,
 				B96A2338200EC6F1000E61B4 /* AppDelegate.swift */,
 				B9D3F5892093563B00DA1C2B /* Assets */,
-				B96A233A200EC6F1000E61B4 /* ViewController.swift */,
 				B96A233C200EC6F1000E61B4 /* Main.storyboard */,
+				B96A233A200EC6F1000E61B4 /* ViewController.swift */,
+				B93D654620C0BC3000EF1DA9 /* SelectionViewController.swift */,
+				B96A2370200EEA03000E61B4 /* CardButton.swift */,
 				B96A2372200EEB9A000E61B4 /* BlackCardViewController.swift */,
 				B96A2374200EF1FF000E61B4 /* CardView.swift */,
 				B96A236E200EE9E2000E61B4 /* CardButtonWhite.swift */,
-				B96A2370200EEA03000E61B4 /* CardButtonBlack.swift */,
 				B96A2341200EC6F1000E61B4 /* LaunchScreen.storyboard */,
 				B96A2344200EC6F1000E61B4 /* Info.plist */,
 			);
@@ -259,7 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				B96A2366200ECE71000E61B4 /* cardbase.swift */,
-				B96A233F200EC6F1000E61B4 /* Assets.xcassets */,
+				B952F5F620C12850008B1BE0 /* Assets.xcassets */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -363,7 +367,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Dennis Muensterer";
 				TargetAttributes = {
 					B96874AF200FBD8A004DF419 = {
@@ -443,7 +447,7 @@
 			files = (
 				B9F48AFC20104A6E0068C378 /* CAH.ckcomplication in Resources */,
 				B96A2343200EC6F1000E61B4 /* LaunchScreen.storyboard in Resources */,
-				B96A2340200EC6F1000E61B4 /* Assets.xcassets in Resources */,
+				B952F5F720C12850008B1BE0 /* Assets.xcassets in Resources */,
 				B96A233E200EC6F1000E61B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +481,7 @@
 				B96874C4200FBD8A004DF419 /* ExtensionDelegate.swift in Sources */,
 				B96874C2200FBD8A004DF419 /* InterfaceController.swift in Sources */,
 				B95E5C8D2010EC430092AC89 /* Singleton.swift in Sources */,
+				B93D654520C0B7B900EF1DA9 /* cardbase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +493,8 @@
 				B96A233B200EC6F1000E61B4 /* ViewController.swift in Sources */,
 				B96A2339200EC6F1000E61B4 /* AppDelegate.swift in Sources */,
 				B96A2367200ECE71000E61B4 /* cardbase.swift in Sources */,
-				B96A2371200EEA03000E61B4 /* CardButtonBlack.swift in Sources */,
+				B96A2371200EEA03000E61B4 /* CardButton.swift in Sources */,
+				B93D654720C0BC3000EF1DA9 /* SelectionViewController.swift in Sources */,
 				B96A2373200EEB9A000E61B4 /* BlackCardViewController.swift in Sources */,
 				B96A236F200EE9E2000E61B4 /* CardButtonWhite.swift in Sources */,
 			);
@@ -651,6 +657,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -658,6 +665,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -708,6 +716,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -715,6 +724,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
